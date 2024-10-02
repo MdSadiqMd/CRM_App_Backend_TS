@@ -5,7 +5,7 @@ name: Node.js Package  # name of the workflow
 
 on:
   push:
-    branches: [master] # whenever we push our code on master branch this workflow needs to be triggered
+    branches: [main] # whenever we push our code on main branch this workflow needs to be triggered
 
 jobs:
   build:
